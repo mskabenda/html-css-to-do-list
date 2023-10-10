@@ -1,0 +1,61 @@
+
+/* This is the Styling for the UI*/
+.UI{
+    width: 390px;
+    height: 690px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1.5px solid #000;
+    background: #87FA85;
+}
+
+/* This is the Styling for the Task List Name */
+.list-name{
+    padding-left: 50px;
+}
+
+/* This is the styling for the To List Tasks */
+.todo-list li{
+    padding-right: 30px;
+    padding-left: 27px;
+    margin-bottom: 10px;
+    border: 0.5px solid #000;
+    background: #FFF;
+    width: 250px;
+    height: 41px;
+    flex-shrink: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+  .todo-list li input {
+    margin-right: 100px;
+  }
+
+/* Input New Task Textbox */
+.add-task input{
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 0.5px solid #000;
+    background: #FFF;
+    width: 250px;
+    height: 41px;
+    flex-shrink: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+/* Add Button */
+.add-task button {
+    margin-left: 265px;
+    width: 25x;
+    height: 41px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 1.5px solid #000;
+    background: greenyellow;
+  }
